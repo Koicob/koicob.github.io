@@ -2,11 +2,6 @@
 <html lang="en">
 <head>
   <title>Pizza Order</title>
-  <style>
-    table, th, td {
-      border: 1px solid black;
-    }
-  </style>
 </head>
 
 <body>
@@ -39,44 +34,52 @@
   <br><br>
 
   <h2>Select Sauce Type</h2>
-  <input type="radio" id="tomato" name="sauce" value="tomato" required>
-  <label for="tomato">Tomato</label><br>
+  <input type="radio" id="marinara" name="sauce" value="marinara" required>
+  <label for="marinara">Marinara</label><br>
 
-  <input type="radio" id="alfredo" name="sauce" value="alfredo">
-  <label for="alfredo">Alfredo</label><br><br>
+  <input type="radio" id="ranch" name="sauce" value="ranch">
+  <label for="ranch">Ranch</label><br>
 
-  <h2>Toppings:</h2>
+  <input type="radio" id="none" name="sauce" value="none">
+  <label for="none">None</label><br><br>
+  
+  <h2>Select Toppings:</h2>
+  <table>
+  <tr>
+    <td>
   <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
   <label for="pepperoni">Pepperoni</label><br>
 
   <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
   <label for="mushrooms">Mushrooms</label><br>
 
-  <input type="checkbox" id="peppers" name="toppings" value="peppers">
+  <input type="checkbox" id="onions" name="toppings" value="onions">
   <label for="onions">Onions</label><br>
-
-  <input type="checkbox" id="sausage" name="toppings" value="sausage">
+  </td>
+  <td>
+  <input type="checkbox" id="olives" name="toppings" value="olives">
   <label for="olives">Olives</label><br>
 
-  <input type="checkbox" id="pineapple" name="toppings" value="pineapple">
+  <input type="checkbox" id="bacon" name="toppings" value="bacon">
   <label for="bacon">Bacon</label><br>
 
   <input type="checkbox" id="Onions" name="toppings" value="pineapple">
-  <label for="pineapple">Pineapple</label><br><br>
-
+  <label for="pineapple">Pineapple</label><br>
+   </td>
+  </tr>
+</table>
+  
   <h2>Add Instructions</h2>
   <label for="comments">Comments:</label><br>
   <textarea id="comments" name="comments">Add Instructions</textarea>
-  <br><br>
+
 
   <input type="submit" value="Submit!">
 
 </form>
 
-<hr>
-
 <p>List of my favorite games</p>
-<table>
+<table border = "1">
   <tr>
     <th>Developer</th>
     <th>Title</th>
