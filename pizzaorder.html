@@ -1,68 +1,116 @@
 <!DOCTYPE html>
-<html>
-<html lang = "en">
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
-
-<title>Order</title> 
+<html lang="en">
+<head>
+  <title>Pizza Order</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
 
 <body>
-<label for="inName">Name</label>
-<input type="text" name="inName" id="inName">
 
-<label for="inName">Phone</label>
-<input type="phone" name="inPhone" id="inPhone">
+<h1>Pizza Order Form</h1>
 
-<label for="inName">Email</label>
-<input type="email" name="inEmail" id="inEmail">
+<form>
 
+<h2>Contact Info</h2>
+  <label for="inName">Name:</label>
+  <input type="text" id="inName" name="inName" required>
+  <br><br>
 
-<select name="favFastFood" id="favFastFood">
-<option>McDonalds</option>
-<option>Arbys</option>
-<option>Subway</option>
-<option>KFC</option>
-</select>
+  <label for="inPhone">Phone:</label>
+  <input type="tel" id="inPhone" name="inPhone" required>
+  <br><br>
 
-<input type="radio" name="favLang"><label>HTML</label><br>
-<input type="radio" name="favLang"><label>Python</label><br>
+  <label for="inEmail">Email:</label>
+  <input type="email" id="inEmail" name="inEmail" required>
+  <br><br>
 
+  <h2>Select Pizza Size</h2>
+  <label for="pizzaSize">Pizza Size:</label>
+  <select id="pizzaSize" name="pizzaSize" required>
+    <option value="">Select Size</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="xlarge">XLarge</option>
+  </select>
+  <br><br>
 
-<input type="checkbox">
-<input type="checkbox">
-<input type="checkbox">
-<input type="checkbox">
-<input type="checkbox">
-<input type="checkbox">
+  <h2>Select Sauce Type</h2>
+  <input type="radio" id="tomato" name="sauce" value="tomato" required>
+  <label for="tomato">Tomato</label><br>
 
+  <input type="radio" id="alfredo" name="sauce" value="alfredo">
+  <label for="alfredo">Alfredo</label><br><br>
 
-<textarea name="comments">Original Message</textarea>
+  <h2>Toppings:</h2>
+  <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+  <label for="pepperoni">Pepperoni</label><br>
 
+  <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+  <label for="mushrooms">Mushrooms</label><br>
 
-<input type="submit" value="Submit!">
+  <input type="checkbox" id="peppers" name="toppings" value="peppers">
+  <label for="onions">Onions</label><br>
 
+  <input type="checkbox" id="sausage" name="toppings" value="sausage">
+  <label for="olives">Olives</label><br>
 
+  <input type="checkbox" id="pineapple" name="toppings" value="pineapple">
+  <label for="bacon">Bacon</label><br>
+
+  <input type="checkbox" id="Onions" name="toppings" value="pineapple">
+  <label for="pineapple">Pineapple</label><br><br>
+
+  <h2>Add Instructions</h2>
+  <label for="comments">Comments:</label><br>
+  <textarea id="comments" name="comments">Add Instructions</textarea>
+  <br><br>
+
+  <input type="submit" value="Submit!">
+
+</form>
+
+<hr>
+
+<p>List of my favorite games</p>
 <table>
   <tr>
-    <th>Person 1</th>
-    <th>Person 2</th>
-    <th>Person 3</th>
+    <th>Developer</th>
+    <th>Title</th>
+    <th>Year</th>
   </tr>
+
   <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
+    <td rowspan="2">Nintendo</td>
+    <td>AC: New Leaf</td>
+    <td>2013</td>
   </tr>
+
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Pokemon White</td>
+    <td>2011</td>
+  </tr>
+
+  <tr>
+    <td>Atlus</td>
+    <td>Persona 4 Golden</td>
+    <td>2012</td>
+  </tr>
+
+  <tr>
+    <td>ZA/UM</td>
+    <td>Disco Elysium</td>
+    <td>2019</td>
+  </tr>
+
+  <tr>
+    <td colspan="3">Count: 4</td>
   </tr>
 </table>
-  
+
+
 </body>
 </html>
-
