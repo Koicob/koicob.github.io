@@ -4,13 +4,27 @@ body {
 h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: large
 }
 p {
   color: red;
 }
 
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+}
+
+#paragraph2{
+  background-color: white;
+  width: 300px;
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
 .blue {
-background-color: blue;
+background-color: darkblue;
 color: white;  
   
 }
