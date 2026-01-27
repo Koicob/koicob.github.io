@@ -28,3 +28,18 @@ background-color: darkblue;
 color: white;  
   
 }
+
+table{
+  border: 1px solid;
+}
+
+th {
+  color: gray;
+}
+
+td {
+  padding: 10px;
+}
+
+
+
