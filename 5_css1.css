@@ -2,8 +2,15 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 p {
   color: red;
+}
+
+.blue {
+background-color: blue;
+color: white;  
+  
 }
