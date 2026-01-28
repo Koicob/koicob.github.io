@@ -7,9 +7,10 @@ h1 {
   font-size: 50px
 }
 
-blank {
+a[href="http://www.w3schools.com"] {
   color: red;
 }
+
 
 p{
 font-size: 15px;
@@ -22,11 +23,11 @@ h2{
 
 #paragraph2{
   background-color: white;
-  width: 300px;
+  width: 350px;
   border: 10px solid green;
   padding: 50px;
   margin: 20px;
-  line-height: 1.8;
+  line-height: 2.0;
 }
 
 .blue {
@@ -39,7 +40,7 @@ background-color: darkblue;
   
 }
 
-#{
+li{
   list-style-type: decimal-leading-zero;
 }
 
