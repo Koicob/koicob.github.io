@@ -21,6 +21,10 @@ h2{
   font-size: 25px;
 }
 
+p{
+  font-size: 13px;
+}
+
 #paragraph2 {
   background-color: white;
   width: 900px;
@@ -28,7 +32,6 @@ h2{
   padding: 35px;
   margin: 20px;
   line-height: 2.0;
-  font-size: 13px;
 }
 
 
