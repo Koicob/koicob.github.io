@@ -12,7 +12,7 @@ blank {
 }
 
 p{
-font-size: 12px;
+font-size: 15px;
 }
 
 h2{
@@ -39,6 +39,10 @@ background-color: darkblue;
   
 }
 
+#{
+  list-style-type: decimal-leading-zero;
+}
+
 table, td, th {
   border: 1px solid;
   padding: 10px;
@@ -49,9 +53,9 @@ table {
 }
 
 th {
-  color: gray;
+  background-color: gray;
 }
 
 td {
-  color: white;
+  background-color: white;
 }
