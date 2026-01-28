@@ -4,7 +4,7 @@ body {
 h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px
+  font-size: 60px
   margin-bottom: 40px;
 }
 
@@ -27,7 +27,7 @@ h2{
 
 #paragraph2{
   background-color: white;
-  width: 325;
+  width: 250;
   border: 10px solid green;
   padding: 30px;
   margin: 20px;
