@@ -23,13 +23,12 @@ h2{
 
 #paragraph2 {
   background-color: white;
-  width: 800px;
+  width: 900px;
   border: 10px solid green;
-  padding: 30px;
+  padding: 35px;
   margin: 20px;
   line-height: 2.0;
   font-size: 13px;
-  color: red;
 }
 
 
