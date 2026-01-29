@@ -1,5 +1,14 @@
 body {
   background-color: powderblue;
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+
+
+header{
+text-align: center;  
 }
 
 #jumpMenu {
@@ -15,8 +24,65 @@ body {
   float: left;
 }
 
+#container{
 
+}
 
+#a2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#a3 {
+display: flex;
+  flex-direction: column;
+}
+
+#a2 {
+display: flex;
+  flex-direction: column;
+}
+
+#a3 {
+display: flex;
+  flex-direction: column;
+}
+
+#a4 {
+display: flex;
+  flex-direction: column;
+}
+
+#a5 {
+display: flex;
+  flex-direction: column;
+}
+
+#a6 {
+display: flex;
+  flex-direction: column;
+}
+
+#a7 {
+display: flex;
+  flex-direction: column;
+}
+
+#a8 {
+display: flex;
+  flex-direction: column;
+}
+
+#a9 {
+display: flex;
+  flex-direction: column;
+}
+
+#a10 {
+display: flex;
+  flex-direction: column;
+}
+  
 #thanks {
   position: absolute;
   bottom: 0;
