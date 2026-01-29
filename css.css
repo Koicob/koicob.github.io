@@ -2,12 +2,22 @@ body {
   background-color: LightBlue;
 }
 
+h1{
+width: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+}
 
 header{
  position: fixed;
   top: 0;
   left: 15%;
-  width: 85%;
+  width: 80%;
   background-color: LightSteelBlue;
   text-align: center;
   border: 3px solid #F0FFFF;
@@ -61,7 +71,10 @@ article {
 }
 
 footer {
-width: 300px;
+  width: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 30px;
   padding: 15px;
   text-align: center;
   font-size: 15px;
