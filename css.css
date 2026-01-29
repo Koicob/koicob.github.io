@@ -12,12 +12,13 @@ body {
   padding: 10px;
   text-align: center;  
   font-size: 30px;
+  float: left;
 }
 
 
 
 #thanks {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 0;
   width: 300px;
