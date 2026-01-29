@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: lightblue;
 }
 
 
@@ -30,26 +30,32 @@ header{
 
 #a2 {
   display: flex;
+  width: 300px
 }
 
 #a3 {
-display: flex;
+  display: flex;
+  width: 300px
 }
 
 #a2 {
-display: flex;
+  display: flex;
+  width: 300px
 }
 
 #a3 {
-display: flex;
+  display: flex;
+  width: 300px
 }
 
 #a4 {
-display: flex;
+  display: flex;
+  width: 300px
 }
 
 #a5 {
-display: flex;
+  display: flex;
+  width: 300px
 }
 
 #a6 {
@@ -57,26 +63,30 @@ display: flex;
 }
 
 #a7 {
-display: flex;
+  display: flex;
+  width: 300px
 }
 
 #a8 {
-display: flex;;
+  display: flex;
+  width: 300px
 }
 
 #a9 {
-display: flex;
+  display: flex;
+  width: 300px
 }
 
 #a10 {
-display: flex;
+  display: flex;
+  width: 300px
 }
   
 #thanks {
  position: fixed;
   bottom: 0;
   right: 0;
-  width: 1000px;
+  width: 100px;
   background-color: green;
   text-align: center; 
   border: 3px solid #73AD21;
