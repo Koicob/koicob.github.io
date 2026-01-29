@@ -1,6 +1,9 @@
-#jumpmenu{
-  
-  display: flex;
+body {
+  background-color: powderblue;
+}
+
+#jumpMenu {
+   display: flex;
   background-color: Yellow;
   flex-direction: column;
 }
