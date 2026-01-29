@@ -1,14 +1,14 @@
 body {
-  background-color: powderblue;
-  position: sticky;
-  top: 0;
-  background-color: green;
-  border: 2px solid #4CAF50;
+  background-color: grey;
 }
 
 
 header{
 text-align: center;  
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
 }
 
 #jumpMenu {
@@ -84,11 +84,11 @@ display: flex;
 }
   
 #thanks {
-  position: absolute;
+ position: fixed;
   bottom: 0;
   right: 0;
   width: 300px;
-  height: 100px;
+  height: 200px;
   background-color: green;
   text-align: center; 
   border: 3px solid #73AD21;
