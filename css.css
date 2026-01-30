@@ -4,12 +4,8 @@ body {
 }
 
 h1{
-  top: 50px;
-  left: 17%;
-  width: 85%;
-  padding: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: 30px;
 }
@@ -72,12 +68,10 @@ article {
 }
 
 footer {
-  bottom: 0;
-  left: 17%;
   width: 85%;
   padding: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  font-size: 17px;
+  font-size: 15px;
 }
