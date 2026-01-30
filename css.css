@@ -4,8 +4,8 @@ body {
 
 h1{
  width: 300px;
-  position: absolute;
-  top: 30px;
+  position: fixed;
+  top: 80px;
   right: 70px;
   padding: 15px;
   text-align: center;
@@ -15,7 +15,7 @@ h1{
 header{
  position: fixed;
   top: 0;
-  left: 10%;
+  left: 20%;
   width: 85%;
   background-color: LightSteelBlue;
   text-align: center;
@@ -71,9 +71,9 @@ article {
 
 footer {
   width: 300px;
-  position: absolute;
-  bottom: 10px;
-  right: 70px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
   padding: 15px;
   text-align: center;
   font-size: 15px;
