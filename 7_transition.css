@@ -1,103 +1,117 @@
 body {
-  background-color: LightBlue;
+    background-color: LightBlue;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 17%;
-  width: 85%;
-  background-color: LightSteelBlue;
-  text-align: center;
-  border: 3px solid #F0FFFF;
-  padding: 10px;
+    background-color: LightSteelBlue;
+    text-align: center;
+    border: 3px solid #F0FFFF;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-#container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-left: 17%;
-}
-
-article {
-  padding: 15px;
-  width: 300px;
-  min-height: 200px;
-  transition: 
-    color 2s,
-    background-color 2s,
-    transform 2s,
-    box-shadow 2s;
-}
-
-article:hover {
-  color: #111;
-  background-color: #e0f0ff;
-  transform: scale(1.05);
-}
-
-article > p:first-of-type::first-letter {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 36px;
-}
-
-article a[href^="http://www.google.com"]::after {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin-left: 6px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/3840px-Link-external-small-ltr-progressive.svg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
+#menuItems {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: DarkSeaGreen;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    z-index: 100;
 }
 
 nav button {
-  background-color: DarkSeaGreen;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  transition: background-color 0.5s;
+    background-color: DarkSeaGreen;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s;
 }
 
 nav button:hover {
-  background-color: SeaGreen;
+    background-color: SeaGreen;
 }
 
 #jumpMenu {
- position: fixed;
-  top: 0;
-  left: 0;
-  width: 15%;
-  height: 100vh;
-  background-color: DarkSeaGreen;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border: 3px solid #F0FFFF;
-  text-align: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.5s;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #cedbc3;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out;
 }
 
-#recentArticles:hover + #jumpMenu {
-  opacity: 1;
-  pointer-events: auto;
+#recentArticles:hover + #jumpMenu, 
+#jumpMenu:hover {
+    max-height: 600px;
 }
 
 #jumpMenu a {
-  display: block;
-  padding: 5px;
-  color: black;
-  text-decoration: none;
-  transition: background-color 0.5s, color 0.5s;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #jumpMenu a:hover {
-  background-color: DarkOliveGreen;
-  color: white;
+    background-color: DarkOliveGreen;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+article {
+    padding: 20px;
+    width: 300px;
+    color: #bdbdbd; 
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 8px;
+    transition: color 2s, transform 2s, background-color 2s;
+}
+
+article:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+article > p:first-of-type::first-letter {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    float: left;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+article a[href*="google.com"]::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/3840px-Link-external-small-ltr-progressive.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
 }
