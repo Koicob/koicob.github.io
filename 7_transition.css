@@ -87,6 +87,6 @@ article > p:first-of-type::first-letter {
 }
 
 article a[href*="google.com"]::after {
-    content: " (link) " url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/20px-Link-external-small-ltr-progressive.svg.png");
+    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/15px-Link-external-small-ltr-progressive.svg.png");
     vertical-align: middle;
-}
+    margin-left: 5px;
