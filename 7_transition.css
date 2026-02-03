@@ -1,19 +1,11 @@
 body {
     background-color: LightBlue;
     margin: 0;
-    font-family: sans-serif;
 }
 
 main {
-    margin-left: 200px;
+    margin-left: 210px;
     padding: 20px;
-}
-
-header {
-    background-color: LightSteelBlue;
-    text-align: center;
-    border: 3px solid Azure;
-    padding: 10px;
 }
 
 #menuItems {
@@ -23,13 +15,13 @@ header {
     width: 200px;
     height: 100%;
     background-color: DarkSeaGreen;
-    display: flex;
-    flex-direction: column;
 }
 
 nav button {
     background-color: DarkSeaGreen;
+    width: 100%;
     padding: 15px;
+    border: none;
     text-align: left;
     cursor: pointer;
     transition: background-color 0.5s;
@@ -40,20 +32,23 @@ nav button:hover {
 }
 
 #jumpMenu {
-    padding: 0;
+    display: none;
+    background-color: White;
     margin: 0;
-    background-color: HoneyDew;
+    padding: 10px;
+    list-style: none;
 }
 
 #recentArticles:hover + #jumpMenu, 
 #jumpMenu:hover {
-    display: block; 
+    display: block;
 }
 
 #jumpMenu a {
     display: block;
-    padding: 10px;
     color: Black;
+    text-decoration: none;
+    padding: 5px;
 }
 
 #jumpMenu a:hover {
@@ -68,18 +63,20 @@ nav button:hover {
 }
 
 article {
-    padding: 20px;
     width: 300px;
-    color: Gray; 
+    padding: 10px;
+    color: Silver;
     transition: color 2s, transform 2s;
 }
 
 article:hover {
     color: Black;
-    transition-timing-function: ease-out;
+    transform: scale(1.1);
 }
 
 article a {
+    pointer-events: none;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -97,4 +94,5 @@ article a[href*="google.com"]::after {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/3840px-Link-external-small-ltr-progressive.svg.png");
     background-size: contain;
     background-repeat: no-repeat;
+    vertical-align: middle;
 }
