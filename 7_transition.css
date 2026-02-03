@@ -40,11 +40,9 @@ nav button:hover {
 }
 
 #jumpMenu {
-    list-style: none;
     padding: 0;
     margin: 0;
     background-color: HoneyDew;
-    display: none; 
 }
 
 #recentArticles:hover + #jumpMenu, 
@@ -56,7 +54,6 @@ nav button:hover {
     display: block;
     padding: 10px;
     color: Black;
-    text-decoration: none;
 }
 
 #jumpMenu a:hover {
@@ -79,11 +76,10 @@ article {
 
 article:hover {
     color: Black;
-    transform: scale(1.1);
+    transition-timing-function: ease-out;
 }
 
 article a {
-    pointer-events: none; 
     color: inherit;
 }
 
