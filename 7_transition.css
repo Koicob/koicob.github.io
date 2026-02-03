@@ -3,6 +3,14 @@ body {
     margin: 0;
 }
 
+
+header {
+    background-color: LightSteelBlue;
+    text-align: center;
+    border: 3px solid Azure;
+    padding: 10px;
+}
+
 main {
     margin-left: 210px;
     padding: 20px;
@@ -54,6 +62,7 @@ nav button:hover {
 #jumpMenu a:hover {
     background-color: DarkOliveGreen;
     color: White;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #container {
@@ -85,14 +94,8 @@ article > p:first-of-type::first-letter {
     font-size: 36px;
 }
 
-article a[href*="google.com"]::after {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 5px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/3840px-Link-external-small-ltr-progressive.svg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    vertical-align: middle;
+a[href^="http://www.google.com"]::after {
+  content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/3840px-Link-external-small-ltr-progressive.svg.png");
+  margin-left: 6px;
 }
+
