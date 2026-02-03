@@ -22,8 +22,6 @@ header {
 }
 
 article {
-  color: #666;
-  background-color: #f5f5f5;
   padding: 15px;
   width: 300px;
   min-height: 200px;
@@ -70,13 +68,17 @@ nav button:hover {
 }
 
 #jumpMenu {
-  position: fixed;
-  top: 60px;
+ position: fixed;
+  top: 0;
   left: 0;
   width: 15%;
+  height: 100vh;
   background-color: DarkSeaGreen;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
   border: 3px solid #F0FFFF;
+  text-align: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s;
