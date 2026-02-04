@@ -1,6 +1,17 @@
-body {
+zbody {
     background-color: LightBlue;
     margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 17%;
+  width: 85%;
+  background-color: LightSteelBlue;
+  text-align: center;
+  border: 3px solid #F0FFFF;
+  padding: 10px;
 }
 
 main {
@@ -86,7 +97,7 @@ article > p:first-of-type::first-letter {
     font-size: 36px;
 }
 
-article a[href*="google.com"]::after {
+article a[href*="http://www.google.com"]::after {
     content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Link-external-small-ltr-progressive.svg/15px-Link-external-small-ltr-progressive.svg.png");
     margin-left: 5px;
     vertical-align: middle;
