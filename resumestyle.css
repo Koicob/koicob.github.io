@@ -1,1 +1,48 @@
 
+
+@media only screen and (max-width: 412px) {
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+
+body {
+
+}
+
+header {
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: DarkSeaGreen;
+
+}
+
+title {
+
+}
+
+
+ a[href*="https://www.linkedin.com/in/jacob-wolford-5b7ab02a8/"]::after {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png");
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
+
+#school {
+
+
+}
+
+
+
