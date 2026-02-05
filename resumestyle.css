@@ -1,53 +1,66 @@
-
-
-@media only screen and (max-width: 412px) {
-
-}
-
-
-
-@media only screen and (min-width: 1200px) {
-
-
-}
-
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-  position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100%;
+#sidebar {
     background-color: DarkSeaGreen;
-
-}
-
-title {
-
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 main {
-    margin-left: 210px;
     padding: 20px;
+    background-color: #f9f9f9;
 }
 
+h1 {
+    margin-top: 0;
+}
 
- a[href*="https://www.linkedin.com/in/jacob-wolford-5b7ab02a8/"]::after {
-    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png");
+h2 {
+    color: #333;
+    border-bottom: 2px solid DarkSeaGreen;
+    padding-bottom: 5px;
+}
+
+#linkedin-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0077b5;
+}
+
+#linkedin-link::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
     margin-left: 5px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     vertical-align: middle;
 }
 
+@media only screen and (min-width: 1024px) {
 
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100%;
+        text-align: left;
+        overflow-y: auto;
+    }
 
-#school {
-
-
+    main {
+        margin-left: 250px;
+        padding: 40px;
+        max-width: 800px;
+    }
 }
-
-
-
