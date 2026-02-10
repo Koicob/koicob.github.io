@@ -3,12 +3,12 @@ let count = 0;
 
 document.getElementById("counter").innerText = count;
 
-function tickup() {
+function tickUp() {
 count = count + 1;
     document.getElementById("counter").innerText = count;
 }
 
-function tickdown() {
+function tickDown() {
   count = count - 1;
     document.getElementById("counter").innerText = count;
 }
