@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     background-color: Azure;
 }
 
 #sidebar {
@@ -15,7 +16,7 @@ body {
 
 main {
     padding: 20px;
-    background-color: Azure;
+
 }
 
 h1 {
