@@ -1,6 +1,5 @@
 let count = 0;
 
-document.getElementById("counter").innerText = count;
 
 
 function tickUp() {
