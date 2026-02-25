@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: Azure;
+}
+
+
+div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  border: 10px solid rgb(68, 112, 68);
+  background-color: rgb(151, 226, 173);
+  padding: 50px;
+  margin: 20px;
+}
+
+
