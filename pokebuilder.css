@@ -7,7 +7,7 @@ body {
 }
 
 
-.controls {
+.input {
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,7 @@ body {
   padding: 50px;
   margin: 20px;
 }
+
 
 
 
